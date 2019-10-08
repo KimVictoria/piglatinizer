@@ -1,9 +1,24 @@
 $( "document" ).ready(function() {
-    console.log("Hello World!")
+
 $('#button').click(function() {
-    var test =
+
+var outputarray = [];
+var vowel = ["a", "e", "i", "o", "u"]
+
+var test =
     $('.input').val();
     $('.output').html(test);
+
+outputarray.push(test);
+
+var trythis = test.split(" ");
+console.log(trythis);
+
+foreach.outputarray(words) {
+    var dexterity = words.
+    }
+}
+
 });
 
 function pig (test) {
