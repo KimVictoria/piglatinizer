@@ -1,29 +1,25 @@
 $( "document" ).ready(function() {
 
+let outputArray = ["test", "test2", "test3"];
+console.log(outputputArray)
+
 $('#button').click(function() {
 
-var outputarray = [];
-var vowel = ["a", "e", "i", "o", "u"]
+let input = $("input").val();
 
-var test =
-    $('.input').val();
-    $('.output').html(test);
+input = input.split(",");
 
-outputarray.push(test);
+outputArray.push(input);
 
-var trythis = test.split(" ");
-console.log(trythis);
+console.log(outputArray);
 
-foreach.outputarray(words) {
-    var dexterity = words.
-    }
-}
-
+outputArray.forEach(function(words) {
+    var firstLetter = words.charAt(0);
 });
 
-function pig (test) {
-    var firstletter = word[0]
-    return firstletter + "ay";
-}
+//.charAt(), .split(),
 
-});
+
+
+}) 
+})
